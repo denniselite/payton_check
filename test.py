@@ -42,7 +42,7 @@ def c2Move(period, total):
 
 def c3Move(period, total):
     if moving_part == c3 and myScene.clocks["c2_clocks"]._pause:
-        time.sleep(0.2)
+        time.sleep(0.5)
         c3.material.color = [1.0, 1.0, 1.0]
         myScene.clocks["c2_clocks"].pause()
     
