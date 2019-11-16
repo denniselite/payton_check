@@ -30,7 +30,7 @@ def makeItRed(collision, pairs):
 collision = CollisionTest(callback=makeItRed)
 collision.add_object(c2)
 collision.add_object(c3)
-myScene.add_collision_test(collision)
+myScene.add_collision_test("test", collision)
 
 myScene.add_object("cylinder_1", c1)
 myScene.add_object("cylinder_2", c2)
